@@ -113,6 +113,12 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
+# ABV - are my initials
+# ABV start.
+# Переименованы переменные:
+# l в lions
+# I в impalas
+# o в ostriches
 lions = 34
 impalas = 43
 if lions > impalas:
@@ -120,7 +126,7 @@ if lions > impalas:
 ostriches = 9
 if ostriches > 0:
     print()
-
+# ABV end.
 # lowercase (слово в нижнем регистре)
 # lower_case_with_underscores (слова из маленьких букв с подчеркиваниями)
 # UPPERCASE (заглавные буквы)
@@ -136,9 +142,13 @@ if ostriches > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
+# ABV start.
+# Переименованы переменные:
+# ss в my_animals
 my_animals = ['cat', 'wolf', 'ostrich']
 if 'lion' in my_animals:
     print('Wow!')
+# ABV end.
 
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
 # Практически все они основываются на PEP8, с небольшими исключениями, принятыми в этой команде.
