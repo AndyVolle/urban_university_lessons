@@ -1,5 +1,8 @@
-my_cars = ['BMW', 'MB', 'LADA', 'KIA', 'HONDA']
-cars_count = 0
-for car in my_cars:
-    cars_count += 10
-    print('Я езжу на автомабиле марки ' + car)
+def print_params(param):
+    print(param)
+    print(param)
+
+
+my_fruits = ['apple', 'orange', 'banana', 'pineapple']
+for fruit in my_fruits:
+    print_params(fruit)
