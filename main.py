@@ -1,18 +1,15 @@
-def test():
-    a, b = 'my', 'homework'
-    print(a)
-    print(b)
+def test(*args):
+    for arg in args:
+        print(arg)
 
 
-test()
+test('С наступающим новым',2024,'годом',{'int': 3, 'str': 'cnh 4', 'bool': True}, [3, 'cnh 4', True])
 
-print(30 * '-')
-
-
-def test2(param1, param2, param3):
-    print(param1)
-    print(param2)
-    print(param3)
-
-
-test2('my homework', 'is', 'my current task')
+def factorial(n):
+    if n!=1:
+        factorial_n_minus_1=factorial(n=n-1)
+        return factorial_n_minus_1*n
+    else:
+        return 1
+user_value=input('Введите значение для вычисления факториала:')
+test(f'{user_value}!={factorial(int(user_value))}')
